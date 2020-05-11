@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/aos.css';
+import './css/bootstrap-datepicker.css';
+import './css/bootstrap.min.css';
+import './css/jquery-ui.css';
+import './css/jquery.fancybox.min.css';
+// import './css/owl.carousel.min.css';
+import './css/owl.theme.default.min.css';
+import './css/style.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
