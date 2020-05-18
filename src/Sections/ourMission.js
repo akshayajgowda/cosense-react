@@ -15,7 +15,7 @@ class OurMission extends Component{
   }
     render(){
         return(
-          <section class="site-section" id="mission-section">
+          <div class="site-section" id="mission-section">
           <div class="container">
             <div class="row mb-5 justify-content-center">
             <TitleText classes1={this.state.classes1} titleText={this.state.title} ptext={this.state.subText}/>
@@ -129,7 +129,7 @@ class OurMission extends Component{
                 </div>
               </div>
             </div>
-          </section>
+          </div>
             )
     }
 }

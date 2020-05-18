@@ -19,16 +19,10 @@ render(){
         <div className="site-mobile-menu-body">
           <ul className="site-nav-wrap">
             <li><a href="#home-section" className="nav-link active">Home</a></li>
-            <li className="has-children"><span className="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem0"></span>
-              <span className="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem0"></span>
-              <a href="#about-section" className="nav-link">Our Vision <i className="fa fa-angle-down"></i></a>
-              <ul className="collapse" id="collapseItem0">
-                <li><a href="#team-section" className="nav-link">Team</a></li>
-                <li className="has-children"><span className="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem1"></span>
-                  <span className="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem1"></span>
-                </li>
-              </ul>
-            </li>
+            <li className="has-children">
+              <a href="#about-section" className="nav-link">Our Vision</a>
+              </li>
+                <li><a href="#team-section" className="nav-link">Our Team</a></li>               
             <li><a href="#mission-section" className="nav-link">Our Mission</a></li>
             <li>
               <a href="#event-section" className="nav-link">Events</a>
@@ -40,14 +34,12 @@ render(){
                     <li>
                       <a href="#home-section" className="nav-link active">Home</a>
                     </li>
-                    <li className="has-children"><span className="arrow-collapse collapsed" data-toggle="collapse" data-target="#collapseItem2"></span>
-                      <a href="#about-section" className="nav-link">Our Vision <i className="fa fa-angle-down"></i></a>
-                      <ul className="collapse" id="collapseItem2">
+                    <li className="has-children">
+                      <a href="#about-section" className="nav-link">Our Vision</a>
+                      </li>
                         <li>
-                          <a href="#team-section" className="nav-link">Team</a>
-                        </li>
-                      </ul>
-                    </li>
+                          <a href="#team-section" className="nav-link">Our Team</a>
+                        </li>                  
                     <li>
                       <a href="#mission-section" className="nav-link">Our Mission</a>
                     </li>
@@ -78,13 +70,11 @@ render(){
                       <a href="#home-section" className="nav-link active">Home</a>
                     </li>
                     <li className="has-children">
-                      <a href="#about-section" className="nav-link">Our Vision <i className="fa fa-angle-down"></i></a>
-                      <ul className="dropdown">
+                      <a href="#about-section" className="nav-link">Our Vision</a>
+                     </li>
                         <li>
-                          <a href="#team-section" className="nav-link">Team</a>
+                          <a href="#team-section" className="nav-link">Our Team</a>
                         </li>
-                      </ul>
-                    </li>
                     <li>
                       <a href="#mission-section" className="nav-link">Our Mission</a>
                     </li>
