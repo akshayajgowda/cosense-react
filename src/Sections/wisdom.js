@@ -17,7 +17,7 @@ class Wisdom extends React.Component{
             image1:SANDEEP,
             discription1:"Badminton has become quite popular among people of all ages.",
             name1:"V.S.Sandeep",
-            ptext1:"In recent times, Badminton has become quite popular among people of all ages. It is a fun game that also offers adequate exercise for the player. It is an active sport without the aggression or rough play and this makes Badminton a perfect sport for all age groups. If you are looking for a sport for your young child but, are worried if it’ll be too difficult; look no further than Badminton.",
+            ptext1:"In recent, Badminton has become quite popular among people of all ages. It is a fun game that also offers adequate exercise for the player. It is an active sport without the aggression or rough play and this makes Badminton a perfect sport for all age groups. If you are looking for a sport for your young child but, are worried if it’ll be too difficult; look no further than Badminton.",
             date1:"Mar 18, 2019",
             delay2:"100",
             link2:"https://youngstaracademy.com/fitness-class/badminton/",
